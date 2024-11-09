@@ -1,3 +1,4 @@
+import { router } from 'expo-router';
 import React from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-native';
 
@@ -32,7 +33,7 @@ const QuizListPage = () => {
         keyExtractor={(item) => item.id}
         contentContainerStyle={styles.list}
       />
-      <TouchableOpacity style={styles.fab} onPress={() => console.log('Add quiz')}>
+      <TouchableOpacity style={styles.fab} onPress={() => router.push("/addQuizPage")}>
         <Text style={styles.fabText}>+</Text>
       </TouchableOpacity>
     </SafeAreaView>

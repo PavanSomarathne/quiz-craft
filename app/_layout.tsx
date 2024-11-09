@@ -26,7 +26,7 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="dashboard" options={{ headerShown: false }} />
-        <Stack.Screen name="addQuizPage" options={{ headerShown: true , title: 'Add Quiz'}} />
+        <Stack.Screen name="addQuizPage" options={{ headerShown: true , title: ''}} />
       </Stack>
   );
 }
