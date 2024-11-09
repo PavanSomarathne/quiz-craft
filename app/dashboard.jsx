@@ -43,14 +43,14 @@ const QuizListPage = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingHorizontal: 20,
+    marginTop: 36,
     marginHorizontal: 16,
     backgroundColor: '#f5f5f5',
   },
   heading: {
     fontSize: 24,
     fontWeight: 'bold',
-    marginVertical: 10,
+    marginVertical: 12,
   },
   list: {
     paddingBottom: 80,
